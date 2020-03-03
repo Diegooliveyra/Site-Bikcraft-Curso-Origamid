@@ -2,6 +2,9 @@
 
 .interna-sobre{
     background-image: url(../img/bg-sobre.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .missao-sobre{

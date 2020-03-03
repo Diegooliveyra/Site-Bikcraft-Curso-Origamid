@@ -1,0 +1,176 @@
+/* Introdução Interna */
+
+.interna-produtos{
+    background-image: url(../img/bg-produtos.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.produto-item{
+    padding-top: 60px;
+}
+
+.produto-item h2{
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: .1em;
+    font-weight: bold;
+    position: relative;
+    top: -120px;
+    text-align: center;
+    margin-top: -68px;
+}
+
+.produto-item h2:before, .produto-item h2:after{
+    content:"";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: white;
+    margin: 12px auto 8px auto;
+}
+
+.produto-icone{
+    background-color: #000000;
+    padding: 70px 0;
+}
+.produto-icone img{
+    margin: 0 auto;
+}
+
+.produto-info{
+    background-color: #000;
+}
+
+.produto-info p {
+    color: #fff;
+    padding: 30px 40px;
+    font-size: 18px;
+    line-height: 25px;
+    height: 180px;
+}
+
+.produto-item ul li {
+    background-color: #FEC63E;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 20px;
+    text-align: center;
+    float: left;
+    width: 229px;
+    height: 49px;
+    padding-top: 16px;
+}
+
+.produto-item ul li:nth-last-child(3){
+    margin-bottom: 2px;
+}
+
+.produto-item ul li:nth-child(odd){
+    margin-right: 2px;
+}
+
+/* Orçamento - Formulario */
+
+.orcamentos {
+    background-color: #000;
+    width: 100%;
+    margin-top: 60px;
+    padding: 40px 0 ;
+}
+
+.orcamentos h2 {
+    color: #FEC63E;
+}
+
+.orcamentos h2::after{
+    background-color: #FEC63E;
+}
+
+.form {
+    padding-right: 60px;
+}
+
+.form label {
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    border: #FEC63E 4px solid;
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    outline: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form textarea {
+    display: block;
+    width: 100%;
+    height: 120px;
+    margin-bottom: 15px;
+    padding: 10px 10px;
+    border: #FEC63E 4px solid;
+    background: none;
+    color: #fff;
+    font-size: 14px;
+    outline: none;
+}
+
+.form button {
+    background: none;
+    padding: 7px 40px;
+    cursor: pointer;
+}
+
+.orcamentos-dados {
+    color: #fff;
+}
+
+.orcamentos-dados h3 {
+    font-size: 18px;
+    line-height: 25px;
+    color: #FEC63E;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.orcamentos-dados span {
+    display: block;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.dados-email {
+    margin-bottom: 40px;
+}
+.orcamentos-dados ul{
+    padding-right: 100px;
+}
+
+.orcamentos-dados ul li {
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px 10px; 
+
+}
+.orcamentos-dados ul li:nth-child(odd) {
+    background-color:#1d1d1d;
+}
+
+.orcamentos-dados p {
+    margin: 10px 0;
+}
