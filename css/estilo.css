@@ -71,6 +71,7 @@ p{
 
 img{
     display: block;
+    max-width: 100%;
 }
 
 /* Header */
@@ -253,7 +254,7 @@ img{
  }
 
 
-.portifolio-lista li :last-child{
+.portifolio-lista div :last-of-type{
      margin-top: 20px;
  }
 

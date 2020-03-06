@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="css/portifolio.css">
+    <link rel="stylesheet" href="css/responsivo.css">
     <title>Bikcraft - Portifólio</title>
 </head>
 <body>
@@ -37,24 +38,53 @@
     </section><!--introducao-->
 
     <section class="container">
-        <blockquote class="quote-cliente">
-            <p>“Aqueles que ainda não possuem uma Bikcraft, não sabem o que estão perdendo. A precisão é absurda e a velocidade transcendental. Nunca vida nada igual.”</p>
-            <cite>Bernado</cite>
-        </blockquote>
+        <ul class="rslides">
+            <li>
+                <blockquote class="quote-cliente">
+                    <p>“Pedalar sempre foi a minha paixão, o que o pessoal da Bikcraft fez foi intensificar o meu amor por esta atividade. Recomendo à todos que amo.”</p>
+                    <cite>Barbara Moss</cite>
+                </blockquote>
+            </li>
+            <li>
+                <blockquote class="quote-cliente">
+                    <p>“Nada melhor do que dar um rolê com a minha Bikcraft na orla. Essa é a minha companheira mais fiel, nunca me traiu e está sempre a minha disposição.”</p>
+                    <cite>Jhony Rato</cite>
+                </blockquote>
+            </li>
+            <li>
+                <blockquote class="quote-cliente">
+                    <p>“Aqueles que ainda não possuem uma Bikcraft, não sabem o que estão perdendo. A precisão é absurda e a velocidade transcendental. Nunca vida nada igual.”</p>
+                    <cite>Bernado</cite>
+                </blockquote>
+            </li>
+        </ul>
     </section>    
 
     <section class="portifolio">
         <div class="container">
             
-            <ul class="portifolio-lista">
-                <li class="grid-8">
-                    <img src="img/portfolio/retro.jpg" alt="Retrô">
+            <ul class="portifolio-lista rslides-portifolio">
+                <li>
+                    <div class="grid-8">
+                        <img src="img/portfolio/retro.jpg" alt="Retrô">
+                    </div>
+                    <div class="grid-8"> 
+                        <img src="img/portfolio/passeio.jpg" alt="Passeio">
+                    </div>
+                    <div class="grid-16">
+                        <img src="img/portfolio/esporte.jpg" alt="Esporte">
+                    </div>
                 </li>
-                <li class="grid-8"> 
-                    <img src="img/portfolio/passeio.jpg" alt="Passeio">
-                </li>
-                <li class="grid-16">
-                    <img src="img/portfolio/esporte.jpg" alt="Esporte">
+                <li>
+                    <div class="grid-8"> 
+                        <img src="img/portfolio/passeio.jpg" alt="Passeio">
+                    </div>
+                    <div class="grid-8">
+                        <img src="img/portfolio/retro.jpg" alt="Retrô">
+                    </div>
+                    <div class="grid-16">
+                        <img src="img/portfolio/esporte.jpg" alt="Esporte">
+                    </div>
                 </li>
             </ul><!--portifolio-lista-->
             
@@ -62,10 +92,10 @@
     </section><!--portifolio-->
 
     <section class="break">
-        <blockquote class="quote-externo container">
-            <p>“o verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana.”</p>
-            <cite>WILLIAM MORRIS</cite>
-        </blockquote>
+                <blockquote class="quote-externo container">
+                    <p>“o verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana.”</p>
+                    <cite>WILLIAM MORRIS</cite>
+                </blockquote>
     </section><!--break-->
 
     <footer>
@@ -113,6 +143,13 @@
         </div><!--copy-->
 
     </footer>
-
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        $(function() {
+          $(".rslides").responsiveSlides();
+        });
+      </script>
 </body>
 </html>
